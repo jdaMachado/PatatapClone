@@ -8,7 +8,9 @@ function myFunction() {
 		// After 4 seconds, remove the show class from DIV
 		setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
 	}
-
-	setTimeout(function() { 
-        myFunction(); 
+//Calls myFunction() 1 second after the page loads		
+setTimeout(function() { 
+	
+	myFunction(); 
+	
     }, 1000);
