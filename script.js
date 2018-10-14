@@ -5,7 +5,7 @@ function myFunction() {
 		// Add the "show" class to DIV
 		x.className = "show";
 	
-		// After 3 seconds, remove the show class from DIV
+		// After 4 seconds, remove the show class from DIV
 		setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
 	}
 
